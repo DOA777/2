@@ -34,14 +34,14 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "DOA's Hub.",
-	Text = "Whitelisted by @Ceo DOA.",
+	Title = "PlugServices.",
+	Text = "thank you for purchasing Discord.gg/PlugServices.",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("DOA's Hub", "BloodTheme")
+local L_4_ = L_3_.CreateLib("PlugServices", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
-local L_6_ = L_5_:NewSection("DOA's Hub")
+local L_6_ = L_5_:NewSection("PlugServices")
 L_6_:NewButton(
     "Aimlock",
     "Beam bitches down",
@@ -382,9 +382,9 @@ L_12_:NewButton(
 end
 )
 
-local L_17_ = L_4_:NewTab("Visuals C+")
+local L_17_ = L_4_:NewTab("Plug Esp C+")
 local L_18_ = loadstring(game:HttpGet("https://pastebin.com/raw/TH9N2EMu"))()
-local L_19_ = L_17_:NewSection("DOA's Hub")
+local L_19_ = L_17_:NewSection("Discord.gg/PlugServices")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -456,14 +456,14 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "DOA's Hub.",
-	Text = "Blacklisted by @Ceo DOA.",
+	Title = "PlugServices.",
+	Text = "Thanks for purchasing.",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("DOA's Hub", "BloodTheme")
+local L_4_ = L_3_.CreateLib("PlugServices", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimbot")
-local L_6_ = L_5_:NewSection("DOA's Hub")
+local L_6_ = L_5_:NewSection("Discord.gg/PlugServices")
 L_6_:NewButton(
     "Aimlock",
     "Beam bitches down",
@@ -677,9 +677,9 @@ L_6_:NewDropdown(
 end
 )
 
-local L_17_ = L_4_:NewTab("Visuals C+")
+local L_17_ = L_4_:NewTab("Plug ESP C+")
 local L_18_ = loadstring(game:HttpGet("https://pastebin.com/raw/TH9N2EMu"))()
-local L_19_ = L_17_:NewSection("DOA's Hub")
+local L_19_ = L_17_:NewSection("PlugServices")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -716,7 +716,7 @@ L_19_:NewToggle(
 end
 )
 local L_7_ = L_4_:NewTab("Autofarm")
-local L_8_ = L_7_:NewSection("DOA's Hub")
+local L_8_ = L_7_:NewSection("PlugServices")
 L_8_:NewButton(
     "Autofarm",
     "Autofarm.",
@@ -724,8 +724,8 @@ L_8_:NewButton(
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/Farm/refs/heads/main/Auto",true))()
 end
 )
-local L_7_ = L_4_:NewTab("Anti Afk")
-local L_8_ = L_7_:NewSection("DOA's Hub")
+local L_7_ = L_4_:NewTab("Plugs Anti Afk")
+local L_8_ = L_7_:NewSection("PlugServices")
 L_8_:NewButton(
     "Anti Afk",
     "Anti Afk.",
@@ -733,17 +733,17 @@ L_8_:NewButton(
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/Sb/refs/heads/main/SB",true))()
 end
 )
-local L_7_ = L_4_:NewTab("Inf Yield")
-local L_8_ = L_7_:NewSection("DOA's Hub")
+local L_7_ = L_4_:NewTab("Plugs Admin")
+local L_8_ = L_7_:NewSection("PlugServices")
 L_8_:NewButton(
-    "Inf Yield",
-    "Inf Yield.",
+    "Admin Menu",
+    "Admin Menu.",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end
 )
 local L_13_ = L_4_:NewTab("Menu Config")
-local L_14_ = L_13_:NewSection("DOA's Hub")
+local L_14_ = L_13_:NewSection("PlugServices")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
@@ -753,7 +753,7 @@ L_14_:NewKeybind(
 end
 )
 local L_7_ = L_4_:NewTab("Credits")
-local L_8_ = L_7_:NewSection("DOA's Hub")
+local L_8_ = L_7_:NewSection("PlugServices's")
 L_8_:NewButton(
     "@Visualfxx on discord",
     "@Yizuz.",
