@@ -724,13 +724,13 @@ L_8_:NewButton(
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/Farm/refs/heads/main/Auto",true))()
 end
 )
-local L_7_ = L_4_:NewTab("Plugs Anti Afk")
+local L_7_ = L_4_:NewTab("Plugs Instant loot")
 local L_8_ = L_7_:NewSection("PlugServices")
 L_8_:NewButton(
-    "Anti Afk",
-    "Anti Afk.",
+    "Instant Loot",
+    "Instant Loot.",
     function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/Sb/refs/heads/main/SB",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DOA777/it/refs/heads/main/it",true))()
 end
 )
 local L_7_ = L_4_:NewTab("Plugs Admin")
